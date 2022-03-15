@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment
+        android:id="@+id/MenuFrag"
+        android:layout_weight="1"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        class="khabui.bit.fragmentphotos.MenuFrag"/>
+    <fragment
+        android:id="@+id/ContentFrag"
+        android:layout_weight="3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        class="khabui.bit.fragmentphotos.ContentFrag"/>
+</LinearLayout>
